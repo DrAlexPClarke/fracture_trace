@@ -1,0 +1,9 @@
+geopandas
+shapely
+scikit-image
+scipy
+numpy
+matplotlib
+pillow
+PyMuPDF
+PyQt6
