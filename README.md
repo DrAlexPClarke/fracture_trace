@@ -1,4 +1,4 @@
-# Skeletonise & Analyse
+# Fracture Trace (Skeletonise & Analyse)
 
 This script is an omnivorous pre-processor for FracPaQ (https://github.com/DaveHealy-github/FracPaQ) intended to take as input any vector file with polygons or lines or any raster image file and produce a FracPaQ-compatible SVG file containing skeletonised traces of polygon features and simplified line traces of line features. This script will trace the centreline of any elongated polygonal features — such as fractures, faults, veins, dykes, or channels — and measuring their width profiles along the centreline. This script was originally developed for geological fracture analysis but is applicable to any dataset of elongated polygons.
 
@@ -240,23 +240,8 @@ The `skeleton.svg` output is designed to satisfy the strict import requirements 
 
 ## Licence
 
-MIT License
+GNU General Public License v3
 Copyright (c) 2026 Alex Clarke
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
 
 ---
 
